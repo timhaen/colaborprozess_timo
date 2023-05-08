@@ -1,0 +1,13 @@
+.big-blue-text{
+    font-size: 50px;
+    color: rgb(0,0,255,0.5);
+}
+
+.italic-red-medium{
+    position: fixed;
+    top: 20px;
+    left: 40px;
+    font-size: 1.5rem;
+    color: #ff0000;;
+    font-style: italic;
+}
