@@ -136,13 +136,15 @@ console.log(sin(1))
   console.log(keyCount);
 
   rot = rot + 0.5;
-
+  push();
+  colorMode(RGB)
   noStroke();
   fill(255,0,150)
   rect(145, height - 15, 280,20)
-  fill(255);
+  fill(0);
   textSize(15);
   text("play: w | stop: e | morph: f while playing", 10, height - 10); 
+  pop();
 }
 
 function mouseClicked(fxn) {
