@@ -19,8 +19,8 @@ function draw() {
     for (let x = 0; x < width; x = x + tile) {
       for (let y = 0; y < height; y = y + tile) {
         console.log(amount);
-        fill(0,50);
-        noStroke();
+        noFill();
+        stroke(0);
         strokeWeight(2);
         rect(x, y, squareSize * (0.097 * amount), squareSize * (0.097 * amount));
       }
