@@ -23,7 +23,7 @@ h1 {
     text-align: left;
     position: absolute;
     width: 100%;
-    right: 1rem;
+    left: 1rem;
     top: 0;
     color: white;
 }
