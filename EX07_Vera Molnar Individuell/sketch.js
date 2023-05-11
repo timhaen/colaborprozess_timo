@@ -30,12 +30,12 @@ function draw() {
         if(amount <=5){
           noFill();
           stroke(0);
-          strokeWeight(2);
+          strokeWeight(3);
           rect(x, y, squareSize * (0.097 * amount), squareSize * (0.097 * amount));
         } else if (amount > 5){
           noFill();
           stroke('red');
-          strokeWeight(2);
+          strokeWeight(3);
           rect(x, y, squareSize * (0.097 * amount), squareSize * (0.097 * amount));
         } 
           }

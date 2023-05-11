@@ -11,7 +11,10 @@ function setup() {
 }
 
 function draw() {
+
+  ellipse(mouseX, mouseY, 100,100);
   translate(100, 100);
+  
   for (let amount = 1; amount < 11; amount++) {
     for (let x = 0; x < width; x = x + tile) {
       for (let y = 0; y < height; y = y + tile) {
@@ -23,7 +26,6 @@ function draw() {
       }
     }
   }
-  noLoop();
 }
 
 
